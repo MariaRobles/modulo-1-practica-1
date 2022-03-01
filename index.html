@@ -9,13 +9,18 @@
 </head>
 <body>
     <div class="container">
-        <div class="img"></div>
+        <div class="img"><img src="" id="avatar" alt="avatar"></div>
         <div class="data">
-          <label for="name"><b>Name</b></label>
+          <label for="name"><b>María José</b></label>
           <input type="text" id="name" name="name" />
   
-          <label for="lastName"><b>Last name</b></label>
+          <label for="lastName"><b>Navarrete Robles</b></label>
           <input type="text" id="lastName" name="lastName" />
+        </div>
+        <div id="actions">
+          <button type="button" onclick="console.log('Mi nombre es: '+ document.getElementById('name').value)">
+            Update
+          </button>
         </div>
       </div>
       <script src="js/custom.js"></script>
