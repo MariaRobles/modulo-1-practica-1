@@ -11,14 +11,14 @@
     <div class="container">
         <div class="img"><img src="" id="avatar" alt="avatar"></div>
         <div class="data">
-          <label for="name"><b>María José</b></label>
+          <label for="name"><b>Nombre</b></label>
           <input type="text" id="name" name="name" />
   
-          <label for="lastName"><b>Navarrete Robles</b></label>
+          <label for="lastName"><b>Apellidos</b></label>
           <input type="text" id="lastName" name="lastName" />
         </div>
         <div id="actions">
-          <button type="button" onclick="console.log('Mi nombre es: '+ document.getElementById('name').value)">
+          <button type="button" onclick="console.log('Mi nombre es: '+ document.getElementById('name').value +' '+ document.getElementById('lastName').value)">
             Update
           </button>
         </div>
